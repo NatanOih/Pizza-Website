@@ -1,0 +1,204 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e;
+    background-color : #FFCC8F;        
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+   
+    border-bottom: none;
+
+    
+}
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color:#247280
+}
+
+hr{
+    border:dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 25px auto;
+    
+}
+
+h1 {
+    line-height: 2;
+    
+    color: #4cbdbd;
+    margin-top : 0 ;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    
+    width: 80%;
+    font-size: 500% ;
+    margin: auto;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px #EE5007,
+               2px 2px 1px #EE5007;
+   
+}
+
+h2 {
+    margin: 4px;
+   
+    font-weight: normal;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    
+
+    text-shadow: 1px 1px 1px #EE5007,
+    2px 2px 1px #EE5007;
+
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h4 {
+
+}
+
+p {
+    line-height: 2;
+}
+
+.fixed_position{
+    position: fixed;
+}
+.background{
+    background-color: #DEA057;
+    margin:0 15% 0 15%;
+    padding-bottom: 0;
+    
+    border-style: solid;
+    border-color: #080808;
+    
+    border-width: 1px;
+    border-bottom: none;
+    border-top: none;
+}
+
+.manu{
+    margin-top: 0;
+    padding-top: 0;
+    position: fixed;
+    width: 15%;
+    
+
+    
+}
+
+
+/* all the top container stuff */
+.top_container {     
+    
+    position: relative;
+    
+    
+  }
+
+.pizza1 {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    width: 25rem;
+}
+
+
+/* all the middle container stuff */
+
+.middle_container {
+    margin: 100px 0
+    
+  }
+
+  .intro{
+    font-size: 16px;  
+    color: #080808;
+    width:70%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    text-align: left;
+
+  }
+
+  .pictures{
+      margin-bottom: 50px;
+  }
+
+  .bread-img{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+
+    width: 10rem;
+    
+  }
+
+  .content{
+
+  }
+
+  .skill-row {
+    line-height: 0.5;
+    text-align: left;
+    width: 90%;
+    margin: 50px auto 100px auto  ; 
+    
+}
+
+/* all the bottom container stuff */
+
+.bottom-container {
+    background-color: #1a1612;
+    margin-bottom: 0;
+  }
+
+.contact-me {
+    background-color: #1a1612;
+    
+}
+
+
+
+
+.top_cloud {
+    position: absolute; 
+    right: 300px;
+    top: 50px;
+}
+
+.bottom_cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.img1 {
+    margin-right: 50px;
+    float: left; 
+    width: 13%;
+    
+}
+.img2 {
+    margin-left: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    float: right; 
+    width: 13%;
+    
+}
